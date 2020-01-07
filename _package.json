@@ -3,7 +3,6 @@
   "version": "{{version}}",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
-  "types": "./dist",
   "repository": "{{repoUrl}}",
   "author": "{{authorName}} {{authorEmail}}",
   "contributors": ["{{authorName}} {{authorEmail}}"],
@@ -20,7 +19,8 @@
     "size": "ds size"
   },
   "dependencies": {
-    "@babel/runtime": "7.7.2"
+    "@babel/runtime": "7.7.2",
+    "prop-types": "15.7.2"
   },
   "peerDependencies": {
     "react": ">= 16.8.6"
