@@ -1,12 +1,14 @@
 import React from 'react';
-import styles from './{{pascal}}.css';
+import styled from 'styled-components';
+
+const Wrapper = styled.div``;
 
 interface {{pascal}}Props {
 }
 
 /** A simple component. */
 export const {{pascal}} = (props: {{pascal}}Props) => {
-  return <div className={styles.{{camel}}}>This is a {{pascal}} component</div>;
+  return <Wrapper>This is a {{pascal}} component</Wrapper>;
 }
 
 export default {{pascal}};

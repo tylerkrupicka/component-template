@@ -14,6 +14,4 @@ Then to use the component in your code just import it!
 
 ```js
 import {{pascal}} from '@{{monorepoName}}/{{kebab}}';
-// and with css-modules
-import '@{{monorepoName}}/{{kebab}}/dist/main.css';
 ```
