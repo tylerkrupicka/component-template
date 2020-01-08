@@ -3,7 +3,7 @@ import styles from './{{pascal}}.css';
 
 interface {{pascal}}Props {
   /** The value for the component to display */
-  value: string;
+  value?: string;
 }
 
 /** A simple component. */
