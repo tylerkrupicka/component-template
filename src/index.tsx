@@ -5,7 +5,7 @@ const Wrapper = styled.div``;
 
 interface {{pascal}}Props {
   /** The value for the component to display */
-  value: string;
+  value?: string;
 }
 
 /** A simple component. */
