@@ -1,7 +1,8 @@
 import React from 'react';
+import { Element } from "@design-systems/utils";
 import styles from './{{pascal}}.css';
 
-interface {{pascal}}Props {
+interface {{pascal}}Props extends Element<"div"> {
   /** The value for the component to display */
   value?: string;
 }

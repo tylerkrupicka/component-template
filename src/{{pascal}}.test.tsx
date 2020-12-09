@@ -3,8 +3,8 @@ import { render } from '@testing-library/react';
 import {{pascal}} from '.';
 
 describe('{{pascal}}', () => {
-  test('It matches the snapshot', () => {
+  test('It renders', () => {
     const { container } = render(<{{pascal}} />);
-    expect(container).toMatchSnapshot();
+    expect(container).toExist();
   });  
 });

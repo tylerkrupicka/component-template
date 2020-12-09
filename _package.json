@@ -8,7 +8,7 @@
   "author": "{{authorName}} {{authorEmail}}",
   "contributors": ["{{authorName}} {{authorEmail}}"],
   "license": "MIT",
-  "sideEffects": ["*.css"],
+  "sideEffects": ["*.css", "dist/esm/index.js"],
   "scripts": {
     "clean": "ds clean",
     "build": "ds build",
@@ -20,7 +20,9 @@
     "size": "ds size"
   },
   "dependencies": {
-    "@babel/runtime": "7.11.2"
+    "@babel/runtime": "7.11.2",
+    "clsx": "1.1.0",
+    "@design-systems/utils": "2.9.1"
   },
   "peerDependencies": {
     "react": ">= 16.8.6"

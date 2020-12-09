@@ -1,3 +1,9 @@
 .{{kebab}} {
   color: blue;
 }
+
+@media (min-width: 400px) {
+  .{{kebab}} {
+    color: green;
+  }
+}
