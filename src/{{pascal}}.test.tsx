@@ -5,6 +5,6 @@ import {{pascal}} from '.';
 describe('{{pascal}}', () => {
   test('It renders', () => {
     const { container } = render(<{{pascal}} />);
-    expect(container).toExist();
+    expect(container).toBeDefined();
   });  
 });
