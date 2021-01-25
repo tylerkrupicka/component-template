@@ -9,6 +9,10 @@
   "contributors": ["{{authorName}} {{authorEmail}}"],
   "license": "MIT",
   "sideEffects": ["*.css", "dist/esm/index.js"],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "scripts": {
     "clean": "ds clean",
     "build": "ds build",
